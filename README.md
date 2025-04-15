@@ -12,19 +12,6 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 ---
 
-## 🛠️ Tech Stack
-
-## 🧠 Tech Stack
-
-| Feature            | Technology Used             |
-|--------------------|-----------------------------|
-| 🎤 Audio Input     | Gradio                      |
-| 🗣️ Speech-to-Text (STT) | OpenAI Whisper via Groq     |
-| 👁️ Vision + LLM     | Meta LLaMA + Groq            |
-| 🗣️ Text-to-Speech (TTS) | ElevenLabs                  |
-| 🖼️ UI Framework     | Gradio                      |
-
----
 
 ## Screenshots of responses(Text+Audio) :
 ![image](https://github.com/user-attachments/assets/6ef3b156-24f1-46a5-b098-5184deb7ca86)
@@ -33,6 +20,58 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 ![image](https://github.com/user-attachments/assets/f22020c0-77dd-42eb-87e5-b3f5cf530c5b)
 
+---
+## 🧠 Tech Stack Breakdown
+
+A detailed view of all the technologies used in each phase of the AI Doctor Bot pipeline:
+
+---
+
+### 🟩 Phase 1 – Audio Recorder  
+**Purpose:** Capture user voice input  
+
+**Tech Stack:**
+- **Gradio** – Interactive UI for microphone input  
+- **Python** – Backend logic and orchestration  
+- **Gradio.Audio** – Component to capture real-time audio  
+- **WAV/MP3 File Handling** – Temporarily saves recorded audio  
+
+---
+
+### 🟦 Phase 2 – Speech-to-Text (STT)  
+**Purpose:** Convert user’s spoken input into transcribed text  
+
+**Tech Stack:**
+- **Groq API** – Provides fast inference for AI models  
+- **OpenAI Whisper (via Groq)** – Powerful STT AI model (`whisper-large-v3`)  
+- **Python** – Handles API interaction and file operations  
+- **dotenv (.env)** – Manages and secures API keys  
+
+---
+
+### 🟨 Phase 3 – Vision + LLM Response  
+**Purpose:** Analyze uploaded medical images and generate diagnostic responses  
+
+**Tech Stack:**
+- **Meta's LLaMA Vision-Language Model** – Performs multimodal analysis (text + image)  
+- **Groq API** – Delivers high-speed, low-latency LLM inference  
+- **Base64 Encoding** – Prepares image data for processing  
+- **Gradio.Image** – Handles image file uploads via UI  
+- **Prompt Engineering** – Custom instructions to mimic a doctor’s tone  
+
+---
+
+### 🟥 Phase 4 – Text-to-Speech (TTS)  
+**Purpose:** Convert AI-generated diagnosis into voice output  
+
+**Tech Stack:**
+- **ElevenLabs API** – Converts text into high-quality, human-like speech  
+- **Python Requests** – Sends LLM output to ElevenLabs and fetches audio  
+- **MP3 File Output** – Saves and returns audio response  
+- **Gradio.Audio** – Plays back audio in the web interface  
+
+---
+---
 # Guide to Installation
 
 1. Clone the repository:
@@ -68,6 +107,7 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
    
 7. Usage : Once the setup is complete, run python final.py
 
+---
 
 ##🧪 Example Flow
 
