@@ -36,31 +36,45 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 # Guide to Installation
 
 1. Clone the repository:
+   
      git clone https://github.com/ayusharyan2704/Doctor-AI-Multi-Modal-Medical-Assistant.git
+   
      cd Doctor-AI-Multi-Modal-Medical-Assistant
 
 2. Create and activate a virtual environment:
      ## On Windows
      python -m venv venv
+   
      venv\Scripts\activate
+   
      ## On Mac/Linux
      python -m venv venv
+   
      source venv/bin/activate
 
 4. Install the required dependencies:
-     pip install -r requirements.txt
 
-5. Configure Environment Variables:
-     Create a .env file in the root directory.
+   pip install -r requirements.txt
 
-    Add your keys:
-     GROQ_API_KEY=your_groq_api_key
-     ELEVENLABS_API_KEY=your_elevenlabs_api_key
-6. Usage : Once the setup is complete, run python final.py
+6. Configure Environment Variables:
+
+   Create a .env file in the root directory.
+
+   Add your keys:
    
-The app will launch in your browser using Gradio.
+     GROQ_API_KEY=your_groq_api_key
+   
+     ELEVENLABS_API_KEY=your_elevenlabs_api_key
+   
+8. Usage : Once the setup is complete, run python final.py
+   
+##6. 🧪 Example Flow
 
-Speak into the microphone and/or upload an image (e.g., rash, x-ray).
+1. User clicks **mic** and speaks: “I have pain near my lower back.”
+2. User uploads an image of the affected area.
+3. AI processes voice + image.
+4. Output:
+   - **Text diagnosis** appears in chat.
+   - **Audio response** plays automatically.
 
-The model will analyze inputs using LLaMA-3 Vision + Whisper and respond using ElevenLabs TTS.
 
