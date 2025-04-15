@@ -26,6 +26,12 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 ---
 
+Screenshot :
+![image](https://github.com/user-attachments/assets/6ef3b156-24f1-46a5-b098-5184deb7ca86)
+
+Four Phase Architecture
+![image](https://github.com/user-attachments/assets/70279d6e-c212-4e02-888a-3a5a4db9d469)
+
 
 
 
