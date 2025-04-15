@@ -11,7 +11,15 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 - 🔄 **Multi-modal Fusion**: Combines voice and visual context for a better diagnosis
 
 ---
+## 🎥 Video Explanation
 
+Here’s a brief video walkthrough of the **Doctor AI – Multi-Modal Medical Assistant**:
+
+[![Doctor AI – Multi-Modal Medical Assistant Video](https://img.youtube.com/vi/mYvFn3bruvA/0.jpg)](https://www.youtube.com/watch?v=mYvFn3bruvA)
+
+Click the image above to watch the full video!
+
+---
 
 ## 🟩 Screenshots of responses(Text+Audio) :
 ![image](https://github.com/user-attachments/assets/6ef3b156-24f1-46a5-b098-5184deb7ca86)
