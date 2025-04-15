@@ -40,22 +40,23 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
      cd Doctor-AI-Multi-Modal-Medical-Assistant
 
 2. Create and activate a virtual environment:
-     python -m venv venv
      ## On Windows
+     python -m venv venv
      venv\Scripts\activate
      ## On Mac/Linux
+     python -m venv venv
      source venv/bin/activate
 
-3. Install the required dependencies:
+4. Install the required dependencies:
      pip install -r requirements.txt
 
-4. Configure Environment Variables:
+5. Configure Environment Variables:
      Create a .env file in the root directory.
 
     Add your keys:
      GROQ_API_KEY=your_groq_api_key
      ELEVENLABS_API_KEY=your_elevenlabs_api_key
-5. Usage : Once the setup is complete, run python final.py
+6. Usage : Once the setup is complete, run python final.py
    
 The app will launch in your browser using Gradio.
 
