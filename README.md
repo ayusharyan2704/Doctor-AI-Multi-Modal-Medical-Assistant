@@ -14,12 +14,18 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 ## 🛠️ Tech Stack
 
-- 🧠 **GROQ + LLaMA 3 Vision**
-- 📢 **Text-to-Speech (TTS)**
-- 🐍 **Python**
-- 📦 **Virtual Environment (venv)**
-- 📄 **dotenv** for environment variable management
+## 🧠 Tech Stack
+
+| Feature            | Technology Used             |
+|--------------------|-----------------------------|
+| 🎤 Audio Input     | Gradio                      |
+| 🗣️ Speech-to-Text (STT) | OpenAI Whisper via Groq     |
+| 👁️ Vision + LLM     | Meta LLaMA + Groq            |
+| 🗣️ Text-to-Speech (TTS) | ElevenLabs                  |
+| 🖼️ UI Framework     | Gradio                      |
 
 ---
+
+
 
 
