@@ -26,11 +26,12 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 ---
 
-Screenshot :
+## Screenshots of responses(Text+Audio) :
 ![image](https://github.com/user-attachments/assets/6ef3b156-24f1-46a5-b098-5184deb7ca86)
 
+![image](https://github.com/user-attachments/assets/eabb3021-73d6-4255-bf56-d1f35de3d69a)
 
-
+![image](https://github.com/user-attachments/assets/f22020c0-77dd-42eb-87e5-b3f5cf530c5b)
 
 
 
