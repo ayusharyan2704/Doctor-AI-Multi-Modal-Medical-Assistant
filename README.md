@@ -13,7 +13,7 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 ---
 
 
-## Screenshots of responses(Text+Audio) :
+## 🟩 Screenshots of responses(Text+Audio) :
 ![image](https://github.com/user-attachments/assets/6ef3b156-24f1-46a5-b098-5184deb7ca86)
 
 ![image](https://github.com/user-attachments/assets/eabb3021-73d6-4255-bf56-d1f35de3d69a)
@@ -71,6 +71,18 @@ A detailed view of all the technologies used in each phase of the AI Doctor Bot 
 - **Gradio.Audio** – Plays back audio in the web interface  
 
 ---
+
+
+## 🧪Example Flow
+
+1. User clicks **mic** and speaks: “I have pain near my lower back.”
+2. User uploads an image of the affected area.
+3. AI processes voice + image.
+4. Output:
+   - **Text diagnosis** appears in chat.
+   - **Audio response** plays automatically.
+
+
 ---
 # Guide to Installation
 
@@ -109,13 +121,5 @@ A detailed view of all the technologies used in each phase of the AI Doctor Bot 
 
 ---
 
-##🧪 Example Flow
-
-1. User clicks **mic** and speaks: “I have pain near my lower back.”
-2. User uploads an image of the affected area.
-3. AI processes voice + image.
-4. Output:
-   - **Text diagnosis** appears in chat.
-   - **Audio response** plays automatically.
 
 
