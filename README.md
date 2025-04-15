@@ -66,9 +66,10 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
    
      ELEVENLABS_API_KEY=your_elevenlabs_api_key
    
-8. Usage : Once the setup is complete, run python final.py
-   
-##6. 🧪 Example Flow
+7. Usage : Once the setup is complete, run python final.py
+
+
+##🧪 Example Flow
 
 1. User clicks **mic** and speaks: “I have pain near my lower back.”
 2. User uploads an image of the affected area.
