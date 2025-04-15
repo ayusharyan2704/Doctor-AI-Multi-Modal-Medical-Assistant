@@ -33,7 +33,7 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 ![image](https://github.com/user-attachments/assets/f22020c0-77dd-42eb-87e5-b3f5cf530c5b)
 
-## Installation
+# Guide to Installation
 
 1. Clone the repository:
      git clone https://github.com/ayusharyan2704/Doctor-AI-Multi-Modal-Medical-Assistant.git
@@ -41,9 +41,9 @@ An intelligent **multi-modal AI system** that mimics how a real doctor communica
 
 2. Create and activate a virtual environment:
      python -m venv venv
-     # On Windows
+     ## On Windows
      venv\Scripts\activate
-     # On Mac/Linux
+     ## On Mac/Linux
      source venv/bin/activate
 
 3. Install the required dependencies:
